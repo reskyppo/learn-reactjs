@@ -1,0 +1,123 @@
+.selection-title{
+    font-size  : 30px;
+    color      : gray;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.post{
+    display      : flex;
+    border       : 1px solid rgba(0, 0, 0, 0.3);
+    width        : 500px;
+    padding      : 10px;
+    box-shadow   : 0 0 16px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left  : 20px;
+}
+
+.img-thumb{
+    width       : 200px;
+    height      : 150px;
+    margin-right: 20px;
+}
+
+.img-thumb img{
+    width     : 200px;
+    height    : 150px;
+    object-fit: cover;
+}
+
+.content{
+    flex: 1;
+}
+
+.content p.title{
+    margin       : 0px;
+    font-size    : 20px;
+    font-weight  : bold;
+    color        : black;
+    margin-bottom: 16px;
+}
+
+.content p.title:hover{
+    cursor: pointer;
+}
+
+.content p.desc{
+    margin   : 0px;
+    font-size: 16px;
+    color    : #4a4a4a;
+}
+
+.remove{
+    padding      : 12px 18px;
+    background   : grey;
+    color        : white;
+    border-radius: 10px;
+    outline      : none;
+    margin-top   : 4px;
+}
+
+.remove:hover{
+    cursor: pointer;
+}
+
+.update{
+    padding      : 12px 18px;
+    background   : cornflowerblue;
+    color        : white;
+    border-radius: 10px;
+    outline      : none;
+    margin-top   : 4px;
+}
+
+.update:hover{
+    cursor: pointer;
+}
+
+.form-add-post{
+    box-shadow   : 0px 0px 16px rgba(0, 0, 0, 0.5);
+    width        : 500px;
+    margin-left  : 20px;
+    padding      : 10px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+}
+
+.form-add-post label {
+    display      : block;
+    font-size    : 14px;
+    color        : gray;
+    font-weight  : bold;
+    margin-bottom: 10px;
+}
+
+.form-add-post input,.form-add-post textarea{
+    border       : 1px solid gray;
+    outline      : none;
+    padding      : 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width        : 100%;
+    box-sizing   : border-box;
+    font-size    : 12px;
+    color        : #3d4a6e;
+}
+
+.btn-submit{
+    border        : 1px solid blue;
+    outline       : none;
+    padding       : 10px 30px;
+    border-radius : 4px;
+    text-transform: uppercase;
+    color         : gray;
+    font-weight   : bold;
+    margin-bottom : 10px;
+}
+
+.btn-submit:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+}

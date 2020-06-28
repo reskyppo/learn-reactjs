@@ -1,0 +1,14 @@
+.navigation{
+    background-color: orange;
+    padding         : 30px;
+    margin-bottom   : 30px;
+}
+
+.navigation a{
+    margin          : 10px;
+    text-decoration : none;
+    color           : white;
+    padding         : 10px 40px;
+    border-radius   : 4px;
+    background-color: darkcyan;
+}

@@ -1,0 +1,19 @@
+.hooks{
+    padding-left: 30px;
+}
+
+.hooks p{
+    font-weight: bold;
+}
+
+.hooks button{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: darkslateblue;
+    color:  white;
+    font-weight: bold;
+}
+
+.hooks button:hover{
+    cursor: pointer;
+}
